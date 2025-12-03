@@ -18,18 +18,18 @@ function App() {
       <div className="card">
         <div className="header">
           <div className="status-badge"><span className="dot"></span> Open to Work</div>
-          <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Felix" alt="Profile" className="profile-img"/>
+          <img src="/de706df24a3212077c6d16513a1062ea.png" alt="Profile" className="profile-img"/>
         </div>
         <div className="content">
-          <h1>Tera Naam</h1>
-          <p className="title">Frontend Developer</p>
+          <h1>Srijan Pradhan</h1>
+          <p className="title">Full-Stack Developer</p>
           <p className="bio">Building modern web experiences with React & Vite.</p>
           <div className="skills">
             <span>React</span><span>Vite</span><span>Tailwind</span>
           </div>
           <div className="actions">
-            <a href="#" className="btn icon-btn"><Github size={20} /></a>
-            <a href="#" className="btn icon-btn"><Linkedin size={20} /></a>
+            <a href="https://github.com/srijan123-sys" className="btn icon-btn"><Github size={20} /></a>
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" className="btn icon-btn"><Linkedin size={20} /></a>
             <button onClick={copyEmail} className="btn primary-btn">
               {copied ? <Check size={18} /> : <Mail size={18} />} {copied ? "Copied" : "Hire Me"}
             </button>
