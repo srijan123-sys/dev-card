@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
   const [copied, setCopied] = useState(false)
-  const email = "tera_email@example.com" // Apna email yahan daalna
+  const email = "thewisdom620@gmail.com" // Apna email yahan daalna
 
   const copyEmail = () => {
     navigator.clipboard.writeText(email)
